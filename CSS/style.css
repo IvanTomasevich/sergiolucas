@@ -10,7 +10,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -34,12 +34,17 @@ body, html {
   min-height: 400px;
 }
 
+.bgimg-4 {
+  background-image: url("../img/juegocosmico.JPG");
+  min-height: 400px;
+}
+
 .caption {
-  position: absolute;
+  position: absolute;, .bgimg-4
   left: 0;
   top: 50%;
   width: 100%;
-  text-align: center;
+  text-align: center;clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
   color: #000;
 }
 
@@ -49,6 +54,19 @@ body, html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #fff
+}
+.link {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  border: 2px solid #fff;
+  margin: 20px;
 }
 
 h3 {
@@ -64,7 +82,7 @@ footer {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
   }
 }
