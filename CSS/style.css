@@ -63,10 +63,11 @@ a {
   color: #fff
 }
 .link {
-  background-color: rgba(255, 255, 255, 0);
+  background; transparent;
   color: #fff;
   border: 2px solid #fff;
   margin: 20px;
+
 }
 
 h3 {
@@ -79,10 +80,13 @@ footer {
   text-align: center;
 }
 
-
-/* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
+  }
+}
+@media (max-width:880px) {
+  .link {
+    display: block;
   }
 }
