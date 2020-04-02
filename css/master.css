@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Caveat+Brush&display=swap');
+@import "backgraund.css";
+@import "menu.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.contenedor {
+  width: 98%;
+  margin: auto;
+}
+
+
+
+header .contenedor {
+  display: table;
+}

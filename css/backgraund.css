@@ -1,0 +1,16 @@
+body, html {
+  height: 100%;
+}
+
+.background {
+  /* la imagen a usar */
+  background-image: url("presente.jpg");
+
+  /* altura total */
+  height: 100%;
+
+  /* centrado y escalado de la imagen */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
