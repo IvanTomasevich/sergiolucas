@@ -97,6 +97,10 @@ h1 a {
   footer {
     font-size: 15px;
   }
+  .dropdown-content {
+    top: -5px;
+    right: 105%; 
+  }
 }
 @media (min-width:1024px){
     .menu {
