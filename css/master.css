@@ -7,21 +7,30 @@
   box-sizing: border-box;
 }
 
-article {
+#contacto {
   position: absolute;
   top: 50%;
   left: 20%;
   font-family: sans-serif;
   font-size: 22px;
 }
-article a {
+#contacto a {
   margin: 35px;
-
   text-decoration: none;
   color: black;
-
 }
-
+#bio {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+#bio h1 {
+  margin: 35px;
+  text-decoration: none;
+  color: black;
+}
 .contenedor {
   width: 98%;
   margin: auto;
