@@ -7,14 +7,25 @@
   box-sizing: border-box;
 }
 
+article {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+article a {
+  margin: 35px;
+  
+  text-decoration: none;
+  color: black;
 
+}
 
 .contenedor {
   width: 98%;
   margin: auto;
 }
-
-
 
 header .contenedor {
   display: table;
