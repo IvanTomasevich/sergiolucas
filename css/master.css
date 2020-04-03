@@ -19,3 +19,22 @@
 header .contenedor {
   display: table;
 }
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background: transparent;
+}
+footer p {
+  text-align: center;
+  color: rgb(255, 255, 255)
+
+}
+@media (min-width:768px) {
+  footer .contenedor {
+    justify-content: space-between;
+  }
+}
